@@ -1,0 +1,30 @@
+{
+    "manifest_version": 2,
+    "name": "图抓抓",
+    "version": "1.0.0",
+    "description": "图片抓抓抓",
+    "icons":
+    {
+        "16": "images/icon.png",
+        "46": "images/icon.png",
+        "128": "images/icon.png"
+    },
+    "browser_action":
+    {
+        "default_icon": "images/icon.png",
+        "default_title": "图抓抓，图片捕捉机",
+        "default_popup": "popup.html"
+    },
+    "homepage_url": "https://github.com/DG-King",
+    "background":
+    {
+        "scripts": ["js/background.js"]
+    },
+    "permissions":
+    [
+        "tabs",
+        "http://*/*",
+        "https://*/*",
+        "downloads"
+    ]
+}
